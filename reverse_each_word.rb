@@ -1,5 +1,5 @@
-def reverse_each_word(words)
-  a = words.split
+def reverse_each_word(sentence)
+  a = sentence.split
 
   a_rev_each = []
   a.each {|x| a_rev_each << x.reverse}
